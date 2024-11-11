@@ -30,7 +30,7 @@ export const models: Array<Model> = [
   {
     id: 'gpt-3.5-turbo',
     label: 'Gpt 3.5 turbo',
-    apiIdentifier: 'gpt-3.5-turbo-1106',
+    apiIdentifier: 'gpt-3.5-turbo',
     description: 'For complex, multi-step tasks',
   },
 ] as const;
