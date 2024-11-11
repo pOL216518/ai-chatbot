@@ -20,12 +20,12 @@ export const models: Array<Model> = [
   //   apiIdentifier: 'gpt-4o',
   //   description: 'For complex, multi-step tasks',
   // },
-  // {
-  //   id: 'gpt-4',
-  //   label: 'GPT 4',
-  //   apiIdentifier: 'gpt-4',
-  //   description: 'For complex, multi-step tasks',
-  // },
+  {
+    id: 'gpt-4',
+    label: 'GPT 4',
+    apiIdentifier: 'gpt-4',
+    description: 'For complex, multi-step tasks',
+  },
 
   {
     id: 'gpt-3.5-turbo',
