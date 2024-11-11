@@ -8,18 +8,18 @@ export interface Model {
 }
 
 export const models: Array<Model> = [
-  // {
-  //   id: 'gpt-4o-mini',
-  //   label: 'GPT 4o mini',
-  //   apiIdentifier: 'gpt-4o-mini',
-  //   description: 'Small model for fast, lightweight tasks',
-  // },
-  // {
-  //   id: 'gpt-4o',
-  //   label: 'GPT 4o',
-  //   apiIdentifier: 'gpt-4o',
-  //   description: 'For complex, multi-step tasks',
-  // },
+  {
+    id: 'gpt-4o-mini',
+    label: 'GPT 4o mini',
+    apiIdentifier: 'gpt-4o-mini',
+    description: 'Small model for fast, lightweight tasks',
+  },
+  {
+    id: 'gpt-4o',
+    label: 'GPT 4o',
+    apiIdentifier: 'gpt-4o',
+    description: 'For complex, multi-step tasks',
+  },
   {
     id: 'gpt-4',
     label: 'GPT 4',
@@ -35,4 +35,4 @@ export const models: Array<Model> = [
   },
 ] as const;
 
-export const DEFAULT_MODEL_NAME: string = 'gpt-3.5-turbo-1106';
+export const DEFAULT_MODEL_NAME: string = 'gpt-4o';
